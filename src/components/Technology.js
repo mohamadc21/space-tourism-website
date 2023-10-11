@@ -32,7 +32,7 @@ const technology = [
 
 function Technology() {
     
-    const [index, setIndex] = useState(1);
+    const [index, setIndex] = useState(0);
     const [activeDest, setActiveDest] = useState('Launch vehicle');
     const [portrait, setPortrait] = useState(true);
 
@@ -101,7 +101,7 @@ function Technology() {
                     </div>
                 </animated.div>
                 <animated.div className="image" style={animation}>
-                    <img src={portrait ? technology[index].images.portrait : technology[index].images.landscape} alt="tech" />
+                    <img src={portrait ? technology[index].images.portrait : technology[index].images.landscape} alt="tech" loading='lazy' />
                 </animated.div>
             </div>
         </div>
