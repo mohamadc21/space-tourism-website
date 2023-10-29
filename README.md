@@ -1,4 +1,4 @@
-# Space tourism website with reactJS
+# Space tourism website with ReactJS
 # Full Responsive 🔥
 
 ![Design preview for the Newsletter sign-up form with success message coding challenge](./preview.jpg)
